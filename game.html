@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Guesser</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+ <div class="container">
+    <div class="gametittle"><h1>Number Guesser Game</h1>
+    </div>
+    <div class="name"> 
+        <label for="input-name" id="askname">What is your name?</label> <br>
+        <input type="text" id="input-name" placeholder="your name"> <br>
+        <button id="firstbutton">Ok</button>
+    </div>
+
+    <div class="welcome">
+        <h2 id="welcomename">Welcome!</h1>
+        <label for="input-guess" id="guessnumber">Guess a number between 0 - 9</label><br>
+        <input  id="input-guess"><br>
+        <button id="secondbutton">Ok</button>
+    </div>
+
+    <div class="message">
+        <p id="Gameresult">You got it right!</p>
+        <button id="thirdbutton">Try again</button>
+    </div>
+ </div>
+    <script src="game.js"></script>
+</body>
+</html>
